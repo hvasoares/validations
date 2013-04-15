@@ -1,5 +1,15 @@
 <?php
 namespace switch5\validations;
+function mustBeAScalar($val){
+	notNull($val)
+	if(is_string($val))
+		return true;
+	if(is_int($val))
+		return true;
+	if(is_float($val)
+		return true;
+	throwError("Not a scalar");
+}
 function notNull($val){
 	if($val)
 		return $val;
