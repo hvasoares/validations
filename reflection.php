@@ -8,7 +8,7 @@ function mustHaveArity($closure,$arity){
 	throwError("The closure doesnt has arity equals $arity");
 }
 
-function methodMustHasAtiry(\ReflectionMethod $m,$arity){
+function methodMustHasArity(\ReflectionMethod $m,$arity){
 	if($m->getNumberOfParameters()!=$arity)
 		throwError("The method doesn't has arity = $arity");
 }
