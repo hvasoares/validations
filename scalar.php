@@ -1,7 +1,7 @@
 <?php
 namespace switch5\validations;
 function mustBeAScalar($val){
-	notNull($val)
+	notNull($val);
 	if(is_string($val))
 		return true;
 	if(is_int($val))
