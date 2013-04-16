@@ -8,7 +8,7 @@ require_once 'validations.php';
 
 class ValidationException extends \Exception{
 	public function __construct($message,ValidationException $other=null){
-		parent::\Exception($message,0,null);	
+		parent::__construct($message,0,null);	
 	}
 }
 
