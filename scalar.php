@@ -6,7 +6,7 @@ function mustBeAScalar($val){
 		return true;
 	if(is_int($val))
 		return true;
-	if(is_float($val)
+	if(is_float($val))
 		return true;
 	throwError("Not a scalar");
 }
