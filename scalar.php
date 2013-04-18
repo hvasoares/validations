@@ -30,4 +30,9 @@ function isString($val){
 	throwError("Not a string");
 }
 
+function firstGreaterThanSecond($first,$second){
+	if($first<$second)
+		throwError("$first not greather than $second");
+}
+
 ?>
