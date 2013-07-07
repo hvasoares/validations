@@ -1,0 +1,15 @@
+{
+    "name": "hvasoares/validations",
+    "description": "custom validations function",
+    "license": "oss",
+    "authors": [
+        {
+            "name": "Hugo Vinícius Alves Soares",
+            "email": "hvasoares@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    }
+}
