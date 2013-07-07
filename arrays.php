@@ -1,5 +1,5 @@
 <?php
-namespace switch5\validations;
+namespace hvasoares\validations;
 
 function returnIfArrayWithSize($size,$array){
 	if( sizeof(isArray($array)) >=$size )

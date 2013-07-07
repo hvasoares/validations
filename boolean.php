@@ -1,5 +1,5 @@
 <?php
-namespace switch5\validations;
+namespace hvasoares\validations;
 function notFalse($val){
 	if($val)
 		return $val;

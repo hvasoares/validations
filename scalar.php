@@ -1,5 +1,5 @@
 <?php
-namespace switch5\validations;
+namespace hvasoares\validations;
 function mustBeAScalar($val){
 	notNull($val);
 	if(is_string($val))

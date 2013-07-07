@@ -1,5 +1,5 @@
 <?
-namespace switch5\validations;
+namespace hvasoares\validations;
 require_once 'arrays.php';
 require_once 'boolean.php';
 require_once 'reflection.php';

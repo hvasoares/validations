@@ -1,5 +1,5 @@
 <?php
-namespace switch5\validations;
+namespace hvasoares\validations;
 function mustHaveArity($closure,$arity){
 	$r = new \ReflectionObject(ofType('Closure',$closure));
 	$m = $r->getMethod('__invoke');
