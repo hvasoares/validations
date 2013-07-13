@@ -12,4 +12,7 @@
     "require": {
 
     }
+    "autoload":{
+	    "psr-0": "hvasoares//validations": 'src/hvasoares/validations'
+    }
 }
