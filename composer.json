@@ -13,6 +13,6 @@
 
     },
     "autoload":{
-	    "psr-0": "hvasoares//validations": 'src/hvasoares/validations'
+	    "psr-0":{"hvasoares//validations": "src/hvasoares/validations"}
     }
 }
