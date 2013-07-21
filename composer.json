@@ -13,6 +13,14 @@
 
     },
     "autoload":{
-	    "psr-0":{"\\hvasoares\\validations": "src/"}
+	    "psr-0":{"\\hvasoares\\validations": "src/"},
+	"files" :[
+		"src/hvasoares/validations/arrays.php",
+		"src/hvasoares/validations/boolean.php",
+		"src/hvasoares/validations/reflection.php",
+		"src/hvasoares/validations/scalar.php",
+		"src/hvasoares/validations/validations.php"
+		]
     }
 }
+
